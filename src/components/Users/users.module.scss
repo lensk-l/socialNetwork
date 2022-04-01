@@ -1,0 +1,104 @@
+.users {
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .selectedPage {
+      color: rgb(10, 59, 111);
+      font-weight: bold;
+      cursor: pointer;
+      background-color: rgba(128, 128, 128, 0.41);
+    }
+
+    div {
+      margin-right: 10px;
+      background-color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      text-align: center;
+      margin-top: 3px;
+      cursor: pointer;
+      transition-duration: 1s;
+
+      p {
+        margin-top: 3px;
+      }
+    }
+
+    .nextPage {
+      width: 90px;
+      background-color: #55677d;
+      color: #dfe6ed;
+    }
+
+    .prevPage {
+      width: 120px;
+      background-color: #55677d;
+      color: #dfe6ed;
+    }
+
+    div:hover {
+      background-color: #afacac;
+    }
+  }
+
+  .user {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    .left {
+      text-align: center;
+
+
+      .photo {
+        border-radius: 50%;
+        width: 100px;
+      }
+
+      button {
+        margin-top: 10px;
+        width: 80px;
+        border-radius: 10px;
+        border-color: transparent;
+        color: #182849;
+        cursor: pointer;
+      }
+
+      button:disabled {
+        background-color: grey;
+        color: white;
+        cursor: none
+      }
+
+      .unf {
+        background-color: rgba(143, 188, 143, 0.52);
+        transition-property: background-color;
+        transition-duration: 1s;
+      }
+
+      .fol {
+        background-color: rgba(205, 92, 92, 0.62);
+        transition-property: background-color;
+        transition-duration: 1s;
+      }
+    }
+
+    .right {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      margin-top: 40px;
+      margin-right: 15px;
+      color: #435e7e;
+
+      .location {
+        text-align: right;
+      }
+    }
+  }
+}

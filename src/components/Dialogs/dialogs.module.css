@@ -1,0 +1,67 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100%;
+}
+.content .dialogs {
+  border-right: 1px solid darkblue;
+  padding: 10px;
+}
+.content .messages {
+  background-image: url("https://avatanplus.com/files/resources/original/5be85c45ab78516703a87046.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+.content .messages form {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.content .messages form textarea {
+  width: 95%;
+  margin: 14px auto;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+  outline: none;
+  overflow-wrap: anywhere;
+}
+.content .messages form button {
+  margin: 14px auto;
+  width: 80px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 16px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12.5px;
+  font-weight: normal;
+  text-decoration: none;
+  vertical-align: top;
+  color: #55677d;
+  background-color: #dfe6ed;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+  overflow: hidden;
+}
+.content .messages form button button:focus-visible {
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+.content .messages form button button:hover {
+  opacity: 0.88;
+}
+.content .messages form button button:active {
+  line-height: 32px;
+}
+.content .messages form button button:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+/*# sourceMappingURL=dialogs.module.css.map */

@@ -1,0 +1,13 @@
+.dialog_item {
+  padding: 0.5em;
+  a {
+    text-decoration: none;
+    color: dimgray;
+  }
+  .active {
+    color: #55677d;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+}

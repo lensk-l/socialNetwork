@@ -1,0 +1,16 @@
+.header {
+  grid-area: header;
+  background-color: #0a3b6f69;
+}
+.header img {
+  width: 50px;
+  margin: 0.5em 0.5em auto;
+}
+.header .loginBlock {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+/*# sourceMappingURL=header.css.map */

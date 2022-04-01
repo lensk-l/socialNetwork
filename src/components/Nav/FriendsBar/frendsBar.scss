@@ -1,0 +1,16 @@
+.friend_item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2px;
+  div {
+    border: 1px solid white;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    padding: 5px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #dfe6ed;
+    color: #55677d;
+  }
+}

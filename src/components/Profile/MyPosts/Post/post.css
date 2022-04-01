@@ -1,0 +1,30 @@
+.postBlock {
+  grid-area: postBlock;
+  display: flex;
+  flex-wrap: initial;
+  flex-direction: row;
+  flex-grow: unset;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
+.postBlock .postImg {
+  background-image: url("https://cs6.pikabu.ru/post_img/2015/03/23/4/1427087004_943131442.jpeg");
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+.postBlock .postText {
+  background-color: white;
+  border-radius: 10px;
+  width: 90%;
+  height: 60px;
+  margin: 10px;
+}
+.postBlock .postText p {
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=post.css.map */

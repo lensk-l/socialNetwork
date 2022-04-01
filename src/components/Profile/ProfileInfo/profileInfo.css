@@ -1,0 +1,33 @@
+.p_content {
+  display: grid;
+  grid-template-areas: "b-i b-i" "p-l inf" "p p" "postBlock postBlock";
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+.p_content .bigImg {
+  grid-area: b-i;
+  background-image: url("https://naked-science.ru/wp-content/uploads/2017/11/field_image_stars0_0.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-left: -10px;
+}
+.p_content .profLogo {
+  grid-area: p-l;
+  height: 150px;
+  width: 150px;
+  background-image: url("https://99px.ru/sstorage/53/2018/05/tmb_227736_832989.jpg");
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.p_content .profLogo img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.p_content .info {
+  grid-area: inf;
+}
+
+/*# sourceMappingURL=profileInfo.css.map */

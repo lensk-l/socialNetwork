@@ -1,0 +1,25 @@
+.item {
+  background-color: white;
+  position: relative;
+  margin-bottom: 2em;
+  width: fit-content;
+  border-radius: 10px;
+}
+.item :before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 4px;
+  top: 0px;
+  border: 25px solid;
+  border-color: transparent transparent transparent white;
+  z-index: -1;
+}
+.item p {
+  z-index: 1;
+  padding: 10px;
+  position: relative;
+}
+
+/*# sourceMappingURL=message.module.css.map */

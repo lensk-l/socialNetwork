@@ -1,0 +1,85 @@
+
+.post {
+  grid-area: p;
+
+  .form {
+    display: grid;
+    grid-template:
+    "h3 h3"
+    "t  b";
+    grid-template-columns: 4fr 1fr;
+
+    h3 {
+      grid-area: h3;
+    }
+
+    .fild-div {
+      grid-area: t;
+      width: 100%;
+      height: 50px;
+      margin: 0 auto;
+      border-radius: 10px;
+      background-color: white;
+
+      input {
+        width: 80%;
+        border: none;
+        resize: none;
+        outline: none;
+        overflow-wrap: anywhere;
+        margin: 10px;
+      }
+
+    }
+    .butt-div {
+      grid-area: b;
+      margin: 0 auto;
+      button {
+        margin-top: 10px;
+        width: 80px;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 0 16px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12.5px;
+        font-weight: normal;
+        text-decoration: none;
+        vertical-align: top;
+        color: #55677d;
+        background-color: #dfe6ed;
+        cursor: pointer;
+        user-select: none;
+        appearance: none;
+        touch-action: manipulation;
+        overflow: hidden;
+
+        button:focus-visible {
+          box-shadow: 0 0 0 3px lightskyblue;
+        }
+
+        button:hover {
+          opacity: 0.88;
+        }
+
+        button:active {
+          line-height: 32px;
+        }
+
+        button:disabled {
+          pointer-events: none;
+          opacity: 0.65;
+        }
+      }
+    }
+
+
+
+
+  }
+
+
+}
